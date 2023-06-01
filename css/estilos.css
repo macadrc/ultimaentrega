@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap';
+header {
+  margin: auto;
+  background-color: #23662e;
+}
+header div {
+  background-color: rgba(125, 51, 73, 0.9176470588);
+}
+header div .nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+header div .nav navbar-light navbar-nav .linkNegro {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+header div .nav div .text-white {
+  font-size: 1.625rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(220, 200, 143, 0.929);
+}
+header div #idColorFondo {
+  background-color: #8F2B49;
+}
+
+main {
+  background-image: url(../assets/img/IMG_1882.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+main div {
+  background-color: rgba(215, 197, 137, 0.7960784314);
+  justify-content: center;
+}
+main div h2 {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+main div P {
+  margin: 10px 0px;
+  padding: 5px 0px;
+  display: flex;
+}
+main div pr {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  display: flex;
+  color: white;
+}
+main div h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  color: black;
+}
+main div h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+main div h5 {
+  justify-content: center;
+}
+main div .container {
+  padding: 5px;
+}
+
+footer {
+  background-color: #23662e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100px;
+}
+footer div {
+  margin: auto;
+  width: max-content;
+}
+footer .iconos {
+  margin-bottom: 5px;
+}
+
+.ERROR body {
+  background-image: none;
+  background-color: rgb(253, 253, 253);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  #central {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  #central {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  #central {
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  #central {
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
+  #central {
+    flex-direction: column;
+  }
+}
+#central {
+  display: flex;
+  justify-content: space-between;
+}
+
+header div .text-white {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(220, 200, 143, 0.929);
+}
+
+footer {
+  background-color: #23662E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100px;
+}
+footer div {
+  margin: auto;
+  width: max-content;
+}
+footer .iconos {
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
